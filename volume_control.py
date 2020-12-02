@@ -317,7 +317,7 @@ class VolumeControl:
         )
         self.__master.itemconfigure(
             tagOrId="value",
-            text=f"Value: {self.value}"
+            text=f"{self.__text_title}{self.value}"
         )
 
     def __create_text(self) -> None:
