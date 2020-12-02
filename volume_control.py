@@ -8,8 +8,8 @@ from math import cos, sin, atan2, radians, degrees
 
 class VolumeControl:
     """
-    VolumeControl is a mix of canvas objects that is aimed
-    to be used as an alternative Tkinter Scale widget.
+    VolumeControl is a mix of canvas objects that is aimed 
+    to be used as an alternative for Tkinter Scale widget.
 
     Simple usage is:
 
