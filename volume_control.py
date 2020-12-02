@@ -249,7 +249,7 @@ class VolumeControl:
             color=""
     ) -> None:
         """
-        This function change the colors of the unit lines. The function
+        This function changes the colors of the unit lines. The function
         is called first to change the colors of unit lines according to the
         selected color gradient, and second to change the colors of unit
         lines back to their original states.
