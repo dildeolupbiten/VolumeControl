@@ -1,7 +1,6 @@
 # VolumeControl
 
-VolumeControl is a mix of canvas objects that is aimed to be used as an alternative Tkinter Scale widget.
-
+VolumeControl is a mix of canvas objects that is aimed to be used as an alternative for Tkinter Scale widget.
 ## How to use
 
     import tkinter as tk
