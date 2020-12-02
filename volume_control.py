@@ -284,9 +284,11 @@ class VolumeControl:
         angle = degrees(atan2(self.__y - event.y, event.x - self.__x))
         if angle < 0:
             angle += 360
-        if angle < 90 and self.__status:
-            angle = 0
-        elif angle > 270 and not self.__status:
+        if (
+                angle < 90 and self.__status
+                or
+                angle > 270 and not self.__status
+        ):
             angle = 0
         if 0 < angle < 180:
             self.__status = False
