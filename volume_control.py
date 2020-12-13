@@ -55,7 +55,7 @@ class VolumeControl:
     ):
         """
         "Construct a VolumeControl object with parent master.
-        :param master: A  canvas object.
+        :param master: A canvas object.
         :param x: A float to determine the horizontal position of
                   the object.
         :param y: A float to determine the vertical position of
