@@ -2,43 +2,43 @@
 
 VolumeControl is a mix of canvas objects that is aimed to be used as an alternative for Tkinter Scale widget.
 ## How to use
+```python
+import tkinter as tk
 
-    import tkinter as tk
+from volume_control import VolumeControl
 
-    from volume_control import VolumeControl
+root = tk.Tk()
+canvas = tk.Canvas(master=root)
+canvas.pack()
+widget = VolumeControl(
+    master=canvas,
+    x=100,
+    y=100,
+    start=0,
+    end=100,
+    radius=50,
+    distance=40,
+    length=5,
+    width=4,
+    color_gradient={"from": "red", "to": "pink"}
+)
 
-    root = tk.Tk()
-    canvas = tk.Canvas(master=root)
-    canvas.pack()
-    widget = VolumeControl(
-        master=canvas,
-        x=100,
-        y=100,
-        start=0,
-        end=100,
-        radius=50,
-        distance=40,
-        length=5,
-        width=4,
-        color_gradient={"from": "red", "to": "pink"}
-    )
+root.mainloop()
 
-    root.mainloop()
-        
-    # Alternative color gradients:
+# Alternative color gradients:
 
-    # {"from": "red", "to": "yellow"}
-    # {"from": "pink", "to": "red"}
-    # {"from": "pink", "to": "blue"}
-    # {"from": "yellow", "to": "red"}
-    # {"from": "yellow", "to": "green"}
-    # {"from": "green", "to": "yellow"}
-    # {"from": "green", "to": "cyan"}
-    # {"from": "cyan", "to": "green"}
-    # {"from": "cyan", "to": "blue"}
-    # {"from": "blue", "to": "pink"}
-    # {"from": "blue", "to": "cyan"}
-    
+# {"from": "red", "to": "yellow"}
+# {"from": "pink", "to": "red"}
+# {"from": "pink", "to": "blue"}
+# {"from": "yellow", "to": "red"}
+# {"from": "yellow", "to": "green"}
+# {"from": "green", "to": "yellow"}
+# {"from": "green", "to": "cyan"}
+# {"from": "cyan", "to": "green"}
+# {"from": "cyan", "to": "blue"}
+# {"from": "blue", "to": "pink"}
+# {"from": "blue", "to": "cyan"}
+```    
 # Animated Pictures
 
 **From blue to cyan**
