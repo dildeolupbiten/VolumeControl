@@ -1,6 +1,7 @@
 # VolumeControl
 
 VolumeControl is a mix of canvas objects that is aimed to be used as an alternative for Tkinter Scale widget.
+
 ## How to use
 ```python
 import tkinter as tk
@@ -39,7 +40,7 @@ root.mainloop()
 # {"from": "blue", "to": "pink"}
 # {"from": "blue", "to": "cyan"}
 ```    
-# Animated Pictures
+## Animated Pictures
 
 **From blue to cyan**
 
